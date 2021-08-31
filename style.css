@@ -1,0 +1,182 @@
+
+.header {
+    font-weight: bold;
+    color: black !important;
+    padding: 10px;
+}
+
+.banner {
+    background-color: #ffffff;
+}
+
+.banner-right {
+    width: 778px;
+    height: 706px;
+}
+
+.painting2 {
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+
+.painting4 {
+    margin-left: 24px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 385px;
+}
+
+.banner-left {
+    width: 350px;
+    height: 350px;
+}
+
+.books {
+    padding: 50px;
+}
+
+.about-artist {
+    position: relative;
+    padding: 195px 174px 0 0;
+}
+
+.upper-section {
+    width: 80px;
+    background-color: #445296;
+    position: absolute;
+    bottom: 414px;
+    left: 174px;
+}
+
+.lower-section {
+    width: 80px;
+    background-color: #445296;
+    position: absolute;
+    bottom: 31px;
+    left: 821px;
+}
+
+.blue {
+    color: #445296;
+}
+
+.red {
+    color: #ae0235;
+}
+
+
+.btn-primary {
+    background-color: #445296;
+    border-radius: 2.3rem;
+    width: 200px;
+}
+
+.slider {
+    height: 780px;
+    background-color: #ebecf4;
+    padding: 20px 20px 100px 20px;
+    position: relative;
+}
+
+
+.btn-light {
+    width: 300px;
+    height: 70px;
+    background: white;
+    position: relative;
+    bottom: 39px;
+    left: 21px;
+    font-weight: bold;
+}
+
+.btn-light:before {
+    position: absolute;
+}
+
+.carousel-cell {
+    width: 23%;
+    margin-right: 10px;
+}
+
+.carousel-cell:before {
+    display: block;
+}
+
+
+.marketplace {
+    height: 430px;
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+.medium-section {
+    width: 80px;
+    background-color: #445296;
+    position: absolute;
+    bottom: 241px;
+    left: 654px;
+}
+
+.medium {
+    font-size: 42px;
+}
+
+.medium-button {
+    margin-top: 50px;
+}
+
+.left-contact {
+    
+}
+
+.red-area {
+    background-color: #ae0241;
+    height: 639px;
+    padding: 100px 0 0 100px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+.white {
+    background-color: #ffffff;
+    width: 80px;
+    position: absolute;
+    top: 96px;
+    left: 202px;
+}
+
+.footer {
+    padding: 60px 0 7px 0;
+    margin: 0 100px 0 100px;
+    position: relative;
+} 
+
+.footer-bar {
+    margin: 0 50px 0 50px;
+}
+
+.footer-icon {
+    width: 16%;
+    position: absolute;
+}
+.icon-facebook {
+    position: absolute;
+    left: 525px;
+    color: #445296;
+}
+
+.icon-twitter {
+    position: absolute;
+    left: 550px;
+    color: #445296;
+}
+
+.icon-instagram {
+    position: absolute;
+    left: 579px;
+    color: #445296;
+}
+
+.copyright {
+    font-size: 14px;
+}
