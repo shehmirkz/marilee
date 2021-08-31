@@ -35,6 +35,10 @@
     padding: 50px;
 }
 
+.book-image {
+    width: 100%;
+}
+
 .about-artist {
     position: relative;
     padding: 195px 174px 0 0;
@@ -72,7 +76,7 @@
 }
 
 .slider {
-    height: 780px;
+    height: 100%;
     background-color: #ebecf4;
     padding: 20px 20px 100px 20px;
     position: relative;
@@ -131,7 +135,7 @@
 
 .red-area {
     background-color: #ae0241;
-    height: 639px;
+    height: 100%;
     padding: 100px 0 0 100px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
@@ -179,4 +183,106 @@
 
 .copyright {
     font-size: 14px;
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px ) {
+    
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1200px - 1) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 992px - 1) {
+
+    .col-sm-12 {
+        margin-top: 10px;
+    }
+
+    .about-artist {
+    padding: 0 !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+    hr .medium-section {
+        display: none !important;
+    }
+
+
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 768px - 1) {
+    .col-sm-12 {
+        margin-top: 10px;
+    }
+    .about-artist {
+        padding: 0 !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .btn-light {
+        display: none;
+    }
+
+    hr .medium-section {
+        display: none !important;
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    .col-sm-12 {
+        margin-top: 10px;
+    }
+
+    .about-artist {
+        padding: 0 !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .btn-light {
+        display: none;
+    }
+
+    .btn-primary {
+        margin-top: 40px;
+    }
+
+    .red-area {
+        padding: 50px 0 0 43px;
+    }
+
+    hr .medium-section {
+        display: none !important;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+
 }
